@@ -1,0 +1,1 @@
+Sistema de reconhecimento facial com integração ao banco de dados, para controle de entrada de funcionários
