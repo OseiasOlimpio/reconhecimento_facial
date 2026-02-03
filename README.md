@@ -1,59 +1,84 @@
-👁️‍🗨️ Reconhecimento Facial em Python
-<p align="center"> <img src="https://img.shields.io/badge/Python-3.x-blue?logo=python"> <img src="https://img.shields.io/badge/OpenCV-Vis%C3%A3o%20Computacional-green"> <img src="https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellow"> <img src="https://img.shields.io/badge/License-MIT-lightgrey"> </p> <p align="center"> 🔍 Sistema de reconhecimento facial desenvolvido em Python utilizando visão computacional e banco de dados local. </p>
+# 👁️‍🗨️ Reconhecimento Facial em Python
 
-📌 Sobre o Projeto
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.x-blue?logo=python">
+  <img src="https://img.shields.io/badge/OpenCV-Vis%C3%A3o%20Computacional-green">
+  <img src="https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellow">
+  <img src="https://img.shields.io/badge/License-MIT-lightgrey">
+</p>
 
-Este projeto tem como objetivo detectar e reconhecer rostos humanos utilizando a webcam, aplicando conceitos de visão computacional, lógica de comparação e persistência de dados.
+<p align="center">
+  🔍 Sistema de reconhecimento facial desenvolvido em Python utilizando visão computacional e banco de dados local.
+</p>
+
+---
+
+## 📌 Sobre o Projeto
+
+Este projeto tem como objetivo **detectar e reconhecer rostos humanos** utilizando a webcam, aplicando conceitos de **visão computacional**, **lógica de comparação** e **persistência de dados**.
 
 É ideal para:
 
-📚 Estudos em Python
+- 📚 Estudos em Python  
+- 🧠 Aprendizado de OpenCV  
+- 🔐 Protótipos de controle de acesso  
+- 🧪 Experimentos com reconhecimento facial  
 
-🧠 Aprendizado de OpenCV
+---
 
-🔐 Protótipos de controle de acesso
+## 🛠️ Tecnologias Utilizadas
 
-🧪 Experimentos com reconhecimento facial
+- 🐍 **Python**
+- 👁️ **OpenCV**
+- 💾 **SQLite**
+- 📷 **Webcam**
+- 🧠 **Lógica de comparação facial**
 
-🛠️ Tecnologias Utilizadas
+---
 
-🐍 Python
+## 🗂️ Estrutura do Projeto
 
-👁️ OpenCV
+📦 **reconhecimento_facial**
 
-💾 SQLite
+- 🚀 `main.py`  
+  Arquivo principal que inicia o sistema
 
-📷 Webcam
+- 📷 `webcam.py`  
+  Captura e processa o vídeo da webcam
 
-🧠 Lógica de comparação facial
+- 🧠 `comparador.py`  
+  Responsável pela comparação facial
 
-📂 Estrutura do Projeto
-📦 reconhecimento_facial
-├── comparador.py       # Lógica de comparação de rostos
-├── database.py         # Conexão e manipulação do banco SQLite
-├── funcionarios.db     # Banco de dados local
-├── main.py             # Arquivo principal do sistema
-├── utils.py            # Funções auxiliares
-├── webcam.py           # Captura de vídeo e detecção facial
-├── __pycache__/
-└── README.md
+- 💾 `database.py`  
+  Gerencia o banco de dados SQLite
 
-🚀 Como Executar o Projeto
-🔹 Pré-requisitos
+- 🧰 `utils.py`  
+  Funções auxiliares
 
-Python 3.7 ou superior
+- 🗄️ `funcionarios.db`  
+  Banco de dados local
 
-Webcam funcional
+---
 
-🔹 Instalação das Dependências
+## 🚀 Como Executar o Projeto
+
+### 🔹 Pré-requisitos
+
+- Python **3.7 ou superior**
+- Webcam funcional
+
+---
+
+### 🔹 Instalação das Dependências
+
+```bash
 pip install opencv-python
-
-
-O SQLite já vem integrado com o Python.
+```
 
 ▶️ Executar
+```bash
 python main.py
-
+```
 
 📷 A webcam será iniciada automaticamente e o sistema começará a detectar rostos.
 
