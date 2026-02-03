@@ -59,26 +59,42 @@ Este projeto tem como objetivo **detectar e reconhecer rostos humanos** utilizan
   Banco de dados local
 
 ---
+🚀 Como Usar
+1) 💻 Pré-requisitos
 
-## 🚀 Como Executar o Projeto
+Certifique-se de ter Python instalado (versão 3.7+).
+Depois, crie e ative um ambiente virtual (opcional, mas recomendado):
 
-### 🔹 Pré-requisitos
+```bash
+python -m venv venv
+# Windows
+venv\Scripts\activate
+# macOS / Linux
+source venv/bin/activate
+```
 
-- Python **3.7 ou superior**
-- Webcam funcional
+2) 📦 Instalação de Dependências
 
----
-
-### 🔹 Instalação das Dependências
+Instale as bibliotecas necessárias:
 
 ```bash
 pip install opencv-python
+pip install sqlite3
 ```
 
-▶️ Executar
+Você pode precisar instalar outras bibliotecas usadas no código, ou adaptar conforme a implementação no seu repositório.
+
+3) ▶️ Executar o Projeto
+
+Para iniciar o sistema de reconhecimento:
+
 ```bash
 python main.py
 ```
+
+Isso deve ativar a webcam e começar a detecção/identificação de rostos.
+
+Você também pode testar módulos separados como webcam.py ou comparador.py dependendo da funcionalidade que quiser experimentar.
 
 📷 A webcam será iniciada automaticamente e o sistema começará a detectar rostos.
 
